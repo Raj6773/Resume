@@ -93,7 +93,7 @@ def generate_pdf(data, image):
     return pdf_filename
 
 # Streamlit UI
-st.title("📄 AI-Powered Resume Builder")
+st.title("📄Resume Builder")
 
 # User Inputs
 name = st.text_input("Full Name")
